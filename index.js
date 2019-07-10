@@ -3,7 +3,6 @@ var AWS = require('aws-sdk');
 var gm = require('gm')
             .subClass({ imageMagick: true }); // Enable ImageMagick integration.
 var util = require('util');
-
 var MAX_WIDTH  = 50;
 var MAX_HEIGHT = 50;
 
